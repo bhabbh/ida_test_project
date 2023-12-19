@@ -14,8 +14,6 @@ Follow these steps to set up the environment and run the application:
     
 -   Navigate to the project's root directory in your terminal
     
-	  `cd project_ida_test` 
-    
 -   Create a new Conda environment named "ida-test" by running the following commands:
     	   
 	   `conda create --name ida_test python=3.11` 
