@@ -18,9 +18,9 @@ Follow these steps to set up the environment and run the application:
 	  `cd project_ida_test` 
     
 -   Create a new Conda environment named "ida-test" by running the following commands:
+    	   
+	   `conda create --name ida_test python=3.11` 
     
-           `conda create --name ida-test python=3.11`
-
 	   `conda activate ida_test` 
 	   
 	   `conda install pip` 
@@ -60,7 +60,12 @@ Once you have set up the environment, you can run the application. Follow these 
 	ex : "c8c368f0311ea25b581cb3c704fe3a70"
 -   Prediction Date: Specify the date for which you want to predict product demand.
 	ex : 2023/12/10
--   Range of Days: Set the number of days into the future for which you want to forecast product demand.
-	ex : 10
 -   Sale IDs: Enter a list of sale IDs relevant to the selected store.
 	ex : "5097825564f0cfe61b9b544661ad0ae0, fffe30ef33248001900c5c5bd627562f, 097b7da23b3925f456505483315860a5"
+
+## Test
+
+From the root directory, run :
+
+	`pytest` 
+
