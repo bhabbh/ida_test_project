@@ -1,4 +1,3 @@
-﻿
 # Store Inventory Forecasting Application
 
 This Python project helps store owners determine how many units of a given product they should order for the upcoming n days. The application is designed to provide accurate predictions based on historical sales data and user inputs.
@@ -68,4 +67,3 @@ Once you have set up the environment, you can run the application. Follow these 
 From the root directory, run :
 
 	`pytest` 
-
