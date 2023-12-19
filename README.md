@@ -19,7 +19,7 @@ Follow these steps to set up the environment and run the application:
     
 -   Create a new Conda environment named "ida-test" by running the following commands:
     
-		`conda create --name ida-test python=3.11`
+           `conda create --name ida-test python=3.11`
 
 	   `conda activate ida_test` 
 	   
